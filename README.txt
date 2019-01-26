@@ -1,6 +1,6 @@
-PyChip8 v0.1J: PythonによるCHIP8エミュレータ
+PyChip8 v0.2J: PythonによるCHIP8エミュレータ
 Copyright (c) 2007 Jay's Factory
-2007/1/2
+2019/1/26
 
 
 はじめに
@@ -25,15 +25,20 @@ DoCoMo社の携帯電話（iモード）上で動作するエミュレータが出現しました。
 た、GameBoy(TM)程度であれば、実装できるのではないかという感触が得られ
 ました。
 
+v0.2Jでの変更点
+---------------
+
+- Python 3.7.2対応
+- PyGame 1.9.4対応
 
 起動方法
 ========
 
-(a) Python2.4（python-2.4.3.msi）を実行、インストールします
-　　（http://www.python.jp/Zope/download/pythoncoreより取得）
-(b) Python上のSDLラッパPyGame（pygame-1.7.1release.win32-py2.4.exe）を
-　　実行、インストールします
-　　（http://www.pygame.org/より取得）
+(a) Python3.7（python-3.7.2.exe）を実行、インストールします
+　　（https://www.python.org/downloads/より取得）
+(b) コマンドラインより、Python上のSDLラッパPyGameを実行、インストールします
+　　    C> python -m pip install pygame
+
 (c) Chip8ゲームパック（c8games.zip）アーカイブを解凍します
 　　（http://www.zophar.net/roms.phtml?op=show&type=chip8より取得）
 (d) コマンドラインから、以下のように実行します
