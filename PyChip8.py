@@ -16,7 +16,7 @@ _CRT = None
 pygame.init() 
  
 window = pygame.display.set_mode((300, 200)) 
-pygame.display.set_caption( 'PyChip8 v0.1J' ) 
+pygame.display.set_caption( 'PyChip8 v0.2J' ) 
 
 print ("PyChip8 v0.2J: A CHIP8 emulator in Python ")
 print ("Copyright (c) 2007 Jay's Factory.")
