@@ -29,7 +29,7 @@ The keys are mapped as follows.
 ## Specification
 ### Memory
 - RAM (200H - F10H)
-- Hexadecimal font (F10H -F60H)
+- Hexadecimal font (F10H - F60H)
 
 ### Registers
 - Data Registers (V0 .. VF)
